@@ -18,5 +18,23 @@
 @import 'bootstrap';
 
  h1, h2, h3 {
-     font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
  }
+
+.navbar, .home-callout {
+  background: #2980b9;
+  background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);
+  background: linear-gradient(to right, #2c3e50, #2980b9);
+}
+
+.navbar {
+  border: none;
+  color: white;
+}
+
+.home-callout {
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  color: white;
+}
